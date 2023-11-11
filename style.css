@@ -1,0 +1,299 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:"Open Sans";
+}
+.main{
+    width:100%;
+}
+
+.nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.navl{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    
+}
+.navl a{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+.navr a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+.hero{
+    width: 86.8%;
+     padding: 0vw 100px;
+    margin-top: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+    line-height:1;
+    width:10vw;
+}
+.first h5{
+    font-size: 0.8rem;
+    line-height:0%;
+}
+.first h2{
+    font-size: 1rem;
+    line-height:0%;
+}
+.first p{
+    font-weight: 800;
+    opacity: 0.5;
+    font-size: 12px;
+}
+.first .imgwrapperfirst{
+   width: 10vw;
+   height:15vw;
+   position: relative;
+   overflow: hidden;
+}
+ .imgwrapperfirst img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+}
+.second {
+    width:30vw;
+    min-height:45vw;
+    position: relative;
+}
+.imgtext{
+    width: fit-content;
+    height: fit-content;
+}
+.second .headings{
+    position: absolute;
+    top:-15%;
+    left:-10%
+}
+.second h1{
+    font-size: 4rem;
+    line-height: 0.4;
+    letter-spacing:-0.2vw;
+
+}
+.second img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.second p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    width:40%
+}
+.circler{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    
+}
+.circle{
+    width:3vw;
+    height: 3vw;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle i{
+    color: #aaaaaa;
+}
+.circler h3{
+    font-weight: 400;
+}
+.motive{
+    padding:0px 100px;
+    margin-top:10vw;
+    display: flex;
+    justify-content:space-between;
+}
+.motive h3{
+    opacity:0.5;
+}
+.motive p{
+    text-align: right;
+    flex-wrap: wrap;
+   align-items: center;
+   width: 70%;
+   line-height: 2;
+   letter-spacing: 0.01vw;
+   font-weight: 800;
+   font-size: 1.1rem;
+  }
+.motive span{
+    display: inline-block;
+     border-radius:100px;
+    margin:  0px 10px;
+    margin-bottom:-7px;
+}
+#onespan{
+    width:50px;
+    height:30px;
+    background-image: url(bluegirl.jpg);
+    background-size: cover;
+    background-position: 40%;
+}
+#twospan{
+    width:80px;
+    height:40px;
+    background-image: url(shaljam.jpg);
+    background-size: cover;
+    background-position: 90%;
+    margin-bottom:-12.5px;
+}
+#threespan{
+    width:50px;
+    height:30px;
+    background-image: url(grass.jpg);
+    background-size: cover;
+    background-position: 40%;
+}
+.elements{
+    width: 86.8%;
+    padding: 0vw 100px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.synergy{
+    padding-left:12vw;
+    line-height: 1;
+    padding-top: 5vw;
+}
+.imgwrapper{
+    width:15vw;
+    height:24vw;
+    margin-top: 12vw;
+    object-fit: cover;
+    overflow: hidden;
+   
+}
+.imgwrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+    object-position: 30% 0%;
+   }
+.synergy h1{
+    letter-spacing: 0.001vw;
+}
+.synergy p{
+    letter-spacing: 0.001vw;
+    width: 20%;
+    font-weight: 200;
+}
+.Harmony{
+    padding-right:5vw;
+    line-height: 1;
+}
+.imgwrapperharmony{
+    width:25vw;
+    height:40vw;
+    margin-top: 12vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+.imgwrapperharmony img{
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+   }
+.Harmony h1{
+ text-align: right;
+   }
+.Harmony p{
+    letter-spacing: 0.001vw;
+    width: 20%;
+    position: absolute;
+    right:12vw;
+    font-weight: 200;
+    text-align: right;
+}
+#banner{
+    width:100%;
+    margin-top: 15vw;
+    display: flex;
+    align-items: center;
+}
+.banimg{
+    width: 65%;
+    height: 60vh;
+    background-color: red;
+    overflow: hidden;
+}
+.banimg img{
+    width: 100%;
+    height:100%;
+    object-position: 0% 70%;
+    object-fit: cover;
+}
+.bantxt{
+    width: 25%;
+    padding: 0vw 3vw;
+}
+.bantxt h1{
+    line-height:0.5;
+    letter-spacing: 0.01vw;
+     font-weight: 800;
+    font-size: 2rem;
+    }
+.future{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      margin-top: 15vw;
+    }
+.future video{
+    opacity: 1;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.ftext{
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ftext h1{
+    font-size: 1.5rem;
+}
+.ftext #btn{
+    width:150px;
+    height:40px;
+    border-radius: 50px;
+    background-color: #dcdcdc;
+    border: #d3d3d3;
+    
+}
+
